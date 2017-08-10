@@ -10,9 +10,13 @@
               [FormGroup]= "customerForm" >
             <fieldset>
                 <div class="form-group"
+<<<<<<< Updated upstream
                     [ngClass]="{'has-error':    (customerForm.get('firstName').touched ||
                                                 customerForm.get('firstName').dirty) &&
                                                 !customerForm.get('firstName').valid }">
+=======
+                    [ngClass]="{'has-error': (firstNameVar.touched || firstNameVar.dirty) && !firstNameVar.valid }">
+>>>>>>> Stashed changes
                     <label class="col-md-2 control-label"
                            for="firstNameId">First Name</label>
 
@@ -36,7 +40,11 @@
                 </div>
 
                 <div class="form-group"
+<<<<<<< Updated upstream
                     [ngClass]="{'has-error': (customerForm.get('lastName').touched || customerForm.get('lastName').dirty) && !customerForm.get('lastName').valid }">
+=======
+                    [ngClass]="{'has-error': (lastNameVar.touched || lastNameVar.dirty) && !lastNameVar.valid }">
+>>>>>>> Stashed changes
                     <label class="col-md-2 control-label"
                         for="lastNameId">Last Name</label>
 
@@ -57,7 +65,11 @@
                 </div>
 
                 <div class="form-group"
+<<<<<<< Updated upstream
                     [ngClass]="{'has-error': (customerForm.get('email').touched || customerForm.get('email').dirty) && !customerForm.get('email').valid }">
+=======
+                    [ngClass]="{'has-error': (emailVar.touched || emailVar.dirty) && !emailVar.valid }">
+>>>>>>> Stashed changes
                     <label class="col-md-2 control-label"
                         for="emailId">Email</label>
 
@@ -118,7 +130,7 @@
                         </div>
                     </div>
 
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                         <label class="col-md-2 control-label"
                             for="street1Id">Street Address 1</label>
                         <div class="col-md-8">
